@@ -35,3 +35,14 @@ jobs:
         mongodb-version: ${{ matrix.mongodb-version }}
     - name: Test build
       run: "nox -s ci_cd_tests --python ${{ matrix.python }}"
+
+  auto-gen-release:
+    needs:
+      - build
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.PAT }}
+    steps:
+      - uses: rymndhng/release-on-push-action@v0.25.0
+        with:
+          bump_version_scheme: norelease
