@@ -89,3 +89,6 @@
   color: "efc1ae"
   description: "Extra attention is needed"
   from_name: "Help wanted"
+- name: "release:major"
+- name: "release:minor"
+- name: "release:patch"
