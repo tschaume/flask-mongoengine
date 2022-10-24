@@ -1,5 +1,5 @@
 [project]
-name = "flask-mongoengine"
+name = "flask-mongoengine-tschaume"
 description = "Flask extension that provides integration with MongoEngine and WTF model forms."
 readme = "README.md"
 requires-python = ">=3.7"
@@ -69,10 +69,10 @@ legacy-dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/MongoEngine/flask-mongoengine"
+Homepage = "https://github.com/tschaume/flask-mongoengine"
 Documentation = "http://docs.mongoengine.org/projects/flask-mongoengine/en/latest/"
-Repository = "https://github.com/MongoEngine/flask-mongoengine"
-Changelog = "https://github.com/MongoEngine/flask-mongoengine/releases"
+Repository = "https://github.com/tschaume/flask-mongoengine"
+Changelog = "https://github.com/tschaume/flask-mongoengine/releases"
 
 [build-system]
 requires = [
