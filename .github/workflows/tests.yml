@@ -35,8 +35,8 @@ jobs:
       run: "nox -s ci_cd_tests --python ${{ matrix.python }}"
 
   auto-gen-release:
-    needs:
-      - build
+    #needs:
+    #  - build
     runs-on: ubuntu-latest
     env:
       GITHUB_TOKEN: ${{ secrets.PAT }}
