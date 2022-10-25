@@ -42,7 +42,8 @@ authors = [
   {name = "Ross Lawley", email = "ross.lawley@gmail.com"}
 ]
 maintainers = [
-  {name = "Andrey Shpak", email = "ashpak@ashpak.ru"}
+  {name = "Andrey Shpak", email = "ashpak@ashpak.ru"},
+  {name = "Patrick Huck", email = "phuck@lbl.gov"}
 ]
 dynamic = ["version"]
 
